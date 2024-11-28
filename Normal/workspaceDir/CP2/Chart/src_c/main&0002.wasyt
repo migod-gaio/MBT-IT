@@ -1,0 +1,10 @@
+[HEAD]
+2,0,0,1,2,0
+[VARIABLE]
+[MEMBER]
+[FUNCTION]
+1,Global,"main","",,,,,
+[STATEMENT]
+1,start,,,,,,,,0,
+2,end,,,,,,,,0,
+[EXPRESSION]

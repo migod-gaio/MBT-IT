@@ -1,0 +1,21 @@
+[HD]
+CASE_B  V1.2
+LINK    0
+[FILE]
+1 "..\..\userDir\src.c"
+[CLASS]
+[MEMBER]
+[FUNC]
+D 1,,"Subsystem",,"..\..\userDir\src.c",4,,extern,,,,"void ()",,131094,,,
+D 1,,"main",,"..\..\userDir\src.c",8,,extern,,,,"void ()",,131090,,,
+[VAR]
+D 1,,"In1",,"..\..\userDir\src.c",1,,extern,,,,"double ",,0,,,
+R "..\..\userDir\src.c",5,,module,"Subsystem",25,,,,
+D 1,,"Out1",,"..\..\userDir\src.c",1,,extern,,,,"double ",,0,,,
+A "..\..\userDir\src.c",5,,"Subsystem",
+D 1,,"Gain",,"..\..\userDir\src.c",1,,extern,,,,"double ",10,0,,,
+R "..\..\userDir\src.c",5,,module,"Subsystem",25,,,,
+[CONST]
+[TYPE]
+[ASM]
+[DEFINE]

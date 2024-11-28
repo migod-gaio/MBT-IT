@@ -1,0 +1,17 @@
+	@create_target_dll
+start log/all
+on error then continue
+set unit/all
+@reset
+set mode source
+
+
+SET OUTPUT/COMMAND NOWINDOW
+SET OUTPUT/MESSAGE=(INFO, WARN) NOWINDOW
+
+assign /read/write/exec 0x0:0xffffffff
+assign 060000000H:06fffffffH
+	enable interrupt/all
+	dir disable interrupt/all
+	direct set cycle 1
+	dir create ..\BIN\WinAMSLite.dll

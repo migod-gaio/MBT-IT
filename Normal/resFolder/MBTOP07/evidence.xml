@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Evidence>
+  <AdmissionDecision>Passed</AdmissionDecision>
+  <TargetModelAuthor>chin.j</TargetModelAuthor>
+  <ExportDate>2024/12/02 20:39:42</ExportDate>
+  <Environment>
+    <MatlabVersion>MATLAB 24.2 (R2024b)</MatlabVersion>
+    <Os>Microsoft Windows 10 Pro Version 10.0 (Build 19045)</Os>
+    <MatlabOptionTools>
+      <Item>Embedded Coder 24.2 (R2024b)</Item>
+      <Item>Fixed-Point Designer 24.2 (R2024b)</Item>
+      <Item>MATLAB Coder 24.2 (R2024b)</Item>
+      <Item>MBTOP RT Script 9.0.0 (for R9.0)</Item>
+      <Item>Simulink 24.2 (R2024b)</Item>
+      <Item>Simulink Coder 24.2 (R2024b)</Item>
+      <Item>Stateflow 24.2 (R2024b)</Item>
+      <Item>dSPACE MATLAB Integration 23.1 (Release 2023-B)</Item>
+      <Item>dSPACE TargetLink Data Dictionary 22.1 (Release 2022-B)</Item>
+      <Item>dSPACE TargetLink Production Code Generator 22.1 (Release 2022-B)</Item>
+    </MatlabOptionTools>
+    <WinAMSVersion>R9.1</WinAMSVersion>
+    <CasePlayer2Version>R9.1</CasePlayer2Version>
+    <XAILVersion>V3.8.3.20</XAILVersion>
+    <MiComSimulaterVersion>hsngt0.xdo V1.02.1</MiComSimulaterVersion>
+    <OMFConverterVersion></OMFConverterVersion>
+    <MbtopVersion>MBTOP 1.5.0 (R9.1)</MbtopVersion>
+  </Environment>
+  <ReferenceModel>
+    <ReferenceModelFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\resFolder\MBTOP01\tarmodel.slx</ReferenceModelFilePath>
+    <ReferenceModelWriteTime>2024/12/02 20:39:07</ReferenceModelWriteTime>
+    <ReferenceModelMFilePath></ReferenceModelMFilePath>
+  </ReferenceModel>
+  <TargetCode>
+    <TargetCodeFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\userDir\src.c</TargetCodeFilePath>
+    <TargetCodeWriteTime>2023/07/04 2:01:30</TargetCodeWriteTime>
+  </TargetCode>
+  <SourceFile />
+  <HeaderFile />
+  <HtmlCoverageFilePath>
+    <Item>../../workspaceDir/CMW/CMW_SimResult/TestCoverLog/src.c/Subsystem&amp;0001.txt</Item>
+  </HtmlCoverageFilePath>
+  <TotalCoverage>
+    <CodeCoverageC0>100</CodeCoverageC0>
+    <CodeCoverageC1>100</CodeCoverageC1>
+    <CodeCoverageMcdc>100</CodeCoverageMcdc>
+    <CodeCoverageFuncCall>0</CodeCoverageFuncCall>
+  </TotalCoverage>
+  <OptionInfo />
+  <TestCaseNumber>1</TestCaseNumber>
+  <TargetSubsystem>tarmodel/Subsystem</TargetSubsystem>
+  <TargetFunction>Subsystem</TargetFunction>
+  <InitFunction />
+  <MatchFlag>1</MatchFlag>
+  <TestCaseList>
+    <testCase>./csv1/codeData.csv/codeData.csv.xml</testCase>
+  </TestCaseList>
+</Evidence>

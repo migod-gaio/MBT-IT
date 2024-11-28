@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestCase>
+  <TestCaseName>csv1\codeData.csv</TestCaseName>
+  <ModelTestCsvFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\resFolder\MBTOP34\csv1\modelData.csv</ModelTestCsvFilePath>
+  <CodeTestCsvFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\workspaceDir\CMW\TestCsv\csv1\codeData.csv</CodeTestCsvFilePath>
+  <ModelLogFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\resFolder\MBTOP05\csv1\SimulationLog.mat</ModelLogFilePath>
+  <CodeLogFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\workspaceDir\CMW\CMW_SimResult\csv1\codeData.csv</CodeLogFilePath>
+  <TestCaseAdmissionDecision>Passed</TestCaseAdmissionDecision>
+  <Date>
+    <ModelExecutionDate>2024/12/02 20:39:42</ModelExecutionDate>
+    <CodeExecutionDate>2024/12/02 20:39:25</CodeExecutionDate>
+    <VerificationExecutionDate>2024/12/02 20:39:42</VerificationExecutionDate>
+  </Date>
+  <TestCaseCoverage>
+    <CodeCoverageC0>100</CodeCoverageC0>
+    <CodeCoverageC1>100</CodeCoverageC1>
+    <CodeCoverageMcdc>100</CodeCoverageMcdc>
+    <CodeCoverageFuncCall>0</CodeCoverageFuncCall>
+  </TestCaseCoverage>
+  <SignalDataList>
+    <SignalData>./Signal0.xml</SignalData>
+    <SignalData>./Signal1.xml</SignalData>
+  </SignalDataList>
+</TestCase>
