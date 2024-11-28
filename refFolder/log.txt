@@ -1,0 +1,13 @@
+Simulink の前のバージョンで保存されていたため、元のファイル "tarmodel.slx" のコピーが作成されました。オリジナル バージョンを復元するには、ファイル "tarmodel.slx.r2015a" の名前を "tarmodel.slx" に変更します。
+
+<a href="matlab:slprivate('showprefs')">Simulink 基本設定</a> を使用して、この機能をオフにできます。このメッセージが表示されないようにする場合は <a href="matlab:sltipalert('never','SimulinkShowPersistentBackupNotification')">ここ</a>をクリックしてください。
+MBTOP - I:[20003]信号変数リストファイルを出力しました。Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList.csv
+MBTOP - I:[20004]未マッピング変数リストファイルを出力しました。Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList_unmapped.csv
+MBTOP - I:[20000]マップリストファイルを出力しました。Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList.xml
+MBTOP - I:[20001]ポインタリストファイルを出力しました。Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList_p.xml
+MBTOP - I:[30500]CSVファイルを出力しました。
+ファイル名: Z:\ModelVariation\Normal\resFolder\MBTOP34\csv1\modelData.csv
+MBTOP - I:[30500]CSVファイルを出力しました。
+ファイル名: Z:\ModelVariation\Normal\resFolder\MBTOP34\csv1\codeData.csv
+MBTOP - I:[50001]create file : Z:\ModelVariation\Normal\resFolder\MBTOP05\csv1\SimulationLog.mat
+MBTOP - I:[60000]比較結果データファイルを出力しました。Z:\ModelVariation\Normal\resFolder\MBTOP06\csv1\compareResult.mat

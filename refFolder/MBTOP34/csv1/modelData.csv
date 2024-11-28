@@ -1,0 +1,15 @@
+mdl,"(Subsystem)",,1,0,,,,,,,,0
+;$L$MBT,"Z:\ModelVariation\Normal\userDir\atgData.csv"
+;$L$MBT,"Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList.xml"
+;$L$MBT,"Z:\ModelVariation\Normal\resFolder\MBTOP02\mapList_p.xml"
+#COMMENT,"tarmodel/In1@In1@1"
+;$L$,テストデータジェネレータ v1.4.0  : 2021/07/29 11:03
+;$L$,limitTime=m60
+;$L$,limitFunctionNest=20*
+;$L$,limitCondNest=64*
+;$L$,limitExpandLoop=28*
+;$L$,FuncStart: Subsystem  Z:\Normal\userDir\src.c
+;$L$,FuncEnd: Subsystem  Z:\Normal\userDir\src.c
+,1
+,2
+,3
