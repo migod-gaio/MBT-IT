@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="Shift_Jis"?>
+<AMSProj ProjPath="..\CMW.amsy" ResultXmlVer="1.1">
+	<ProjInfo>
+		<CP2proj>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\workspaceDir\CP2\CP2.vproj</CP2proj>
+		<MPU>General</MPU>
+		<Compiler>GAIO</Compiler>
+		<OmfOption></OmfOption>
+		<TargetObj>
+			<OmfInputObjFile></OmfInputObjFile>
+			<ObjFile>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\workspaceDir\CP2\CP2.xlo</ObjFile>
+			<StartupComFile>C:\Users\TestEnv\Desktop\RT_MBTOP_Script\template\SS_STARTUP.txt</StartupComFile>
+			<TestInitStopAddr>main</TestInitStopAddr>
+		</TargetObj>
+		<SpmcObj>
+			<OmfInputObjFile></OmfInputObjFile>
+			<ObjFile>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\workspaceDir\CP2\CP2_SPMC.xlo</ObjFile>
+			<StartupComFile>C:\Users\TestEnv\Desktop\RT_MBTOP_Script\template\SS_STARTUP.txt</StartupComFile>
+			<TestInitStopAddr>main</TestInitStopAddr>
+		</SpmcObj>
+	</ProjInfo>
+	<Result DateTime="2024/11/28 23:59:17" OutPutFld=".">
+		<CsvList>
+			<ModuleTest>
+				<Csv Path="..\TestCsv\csv1\codeData.csv">
+					<ResultCsv Name="csv1\codeData.csv" CsvEvidence=".\csv1\codeData_Table.html">
+						<OKNG>1</OKNG>
+						<Match>1</Match>
+						<TestCase>3</TestCase>
+						<Module Name="Subsystem" EncodeName="Subsystem" TestMain="1">
+							<C0Cov>100</C0Cov>
+							<C1Cov>100</C1Cov>
+							<MCDC>100</MCDC>
+							<CallCov IsNF="1">0</CallCov>
+						</Module>
+					</ResultCsv>
+				</Csv>
+			</ModuleTest>
+		</CsvList>
+		<TotalInfo>
+			<TotalRes>
+				<OKNG>1</OKNG>
+				<Match>1</Match>
+				<C0Cov>100</C0Cov>
+				<C1Cov>100</C1Cov>
+				<MCDC>100</MCDC>
+				<CallCov IsNF="1">0</CallCov>
+				<FuncCov>50</FuncCov>
+			</TotalRes>
+			<ModList>
+				<Module Name="Subsystem" EncodeName="Subsystem">
+					<C0Cov>100</C0Cov>
+					<C1Cov>100</C1Cov>
+					<MCDC>100</MCDC>
+					<CallCov IsNF="1">0</CallCov>
+					<SrcPath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\userDir\src.c</SrcPath>
+					<CovLogFile>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\workspaceDir\CMW\CMW_SimResult\TestCoverLog\src.c\Subsystem&amp;0001.txt</CovLogFile>
+				</Module>
+			</ModList>
+		</TotalInfo>
+	</Result>
+	<ToolVersion>
+		<WinAMS>R9.1</WinAMS>
+		<CasePlayer2>R9.1</CasePlayer2>
+		<XAIL>V3.8.3.20</XAIL>
+		<MpuSimulator>hsngt0.xdo V1.02.1</MpuSimulator>
+		<OMFConv></OMFConv>
+	</ToolVersion>
+</AMSProj>

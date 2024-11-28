@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<AmsProj ProjPath="..\..\CMW.amsy" ResultXmlVer="v1.0">
+  <Module Name="Subsystem" EncodeName="Subsystem" SourceFile="src.c" HasC1Cov="1" HasMCDC="1" HasCallCov="1" HasCovLog="1" CountResultCSV="1">
+    <C0Cov Denominator="1" Numerator="1">100</C0Cov>
+    <C1Cov Denominator="0" Numerator="0">100</C1Cov>
+    <MCDC Denominator="0" Numerator="0">100</MCDC>
+    <CallCov Denominator="0" Numerator="0" IsNA="1">0</CallCov>
+    <CovLog>..\..\CMW_SimResult\TestCoverLog\src.c\Subsystem&amp;0001.txt</CovLog>
+    <TestTime>2024/11/28 23:59:17</TestTime>
+    <CsvOutPutDir>..\..\CMW_SimResult</CsvOutPutDir>
+    <ResultCSV CsvEvidence="..\..\CMW_SimResult\csv1\codeData_Table.html" Path="..\..\CMW_SimResult\csv1\codeData.csv" TestMain="1" HasMatch="1">
+      <OKNG>1</OKNG>
+      <Match>1</Match>
+      <TestCase>3</TestCase>
+      <TestPerson></TestPerson>
+    </ResultCSV>
+  </Module>
+</AmsProj>

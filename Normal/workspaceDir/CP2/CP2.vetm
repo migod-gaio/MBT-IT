@@ -1,0 +1,30 @@
+[HD]
+CASE_B  V1.5
+LINK    1
+FILE  1
+DEF_CNT  5,5
+REF_CNT  2,2
+ASS_CNT  1,1
+UNQ_CNT  1
+REV_AMSINFO_ONLY  0
+[FILE]
+1 "..\..\userDir\src.c"
+[UNIQNAME]
+1 "Subsystem"
+[CLASS]
+[MEMBER]
+[FUNC]
+D 1,,"Subsystem",,1,4,,extern,,,,"void ()",,131094,
+D 1,,"main",,1,8,,extern,,,,"void ()",,131090,
+[VAR]
+D 1,,"In1",,1,1,,extern,,,,"double ",,64,
+R 1,5,,module,1,25,,,,,,
+D 1,,"Out1",,1,1,,extern,,,,"double ",,64,
+A 1,5,,1,,
+D 1,,"Gain",,1,1,,extern,,,,"double ",10,64,
+R 1,5,,module,1,25,,,,,,
+[CONST]
+[TYPE]
+[ASM]
+[DEFINE]
+[NAMESPACE]

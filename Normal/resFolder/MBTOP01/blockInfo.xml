@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:mbtop-blockinfo-schema">
+   <BasicInfo>
+      <Author>chin.j</Author>
+      <OS>Microsoft Windows 10 Pro Version 10.0 (Build 19045)</OS>
+      <MATLAB>MATLAB 24.2 (R2024b)</MATLAB>
+      <MBTOP1>MBTOP 1.5.0 (R9.1)</MBTOP1>
+      <Tools>Embedded Coder 24.2 (R2024b)</Tools>
+      <Tools>Fixed-Point Designer 24.2 (R2024b)</Tools>
+      <Tools>MATLAB Coder 24.2 (R2024b)</Tools>
+      <Tools>MBTOP RT Script 9.0.0 (for R9.0)</Tools>
+      <Tools>Simulink 24.2 (R2024b)</Tools>
+      <Tools>Simulink Coder 24.2 (R2024b)</Tools>
+      <Tools>Stateflow 24.2 (R2024b)</Tools>
+      <Tools>dSPACE MATLAB Integration 23.1 (Release 2023-B)</Tools>
+      <Tools>dSPACE TargetLink Data Dictionary 22.1 (Release 2022-B)</Tools>
+      <Tools>dSPACE TargetLink Production Code Generator 22.1 (Release 2022-B)</Tools>
+      <UserModelFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\userDir\tarmodel.slx</UserModelFilePath>
+      <TargetSubsystem>tarmodel/Subsystem</TargetSubsystem>
+      <PreLoadMfilePath/>
+   </BasicInfo>
+   <ModelFileList>
+      <ModelFilePath>C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\resFolder\MBTOP01\tarmodel.slx</ModelFilePath>
+   </ModelFileList>
+   <SLDDFileList>
+      <SLDDFilePath/>
+   </SLDDFileList>
+   <BusObjMatFile/>
+   <BlockItem>
+      <BlockType>Gain</BlockType>
+      <BlockPath>tarmodel/Subsystem/Gain</BlockPath>
+      <BlockName>Gain</BlockName>
+      <ParameterName>Gain</ParameterName>
+      <ParameterValue>10</ParameterValue>
+      <DataType>double</DataType>
+      <BaseDataType>double</BaseDataType>
+      <SignalName/>
+      <PortNumber/>
+      <PortWidth/>
+      <ConnectedBlockPath/>
+      <Dimension>1  1</Dimension>
+      <SignalType>Scalar</SignalType>
+      <SignalHierarchy/>
+   </BlockItem>
+   <BlockItem>
+      <BlockType>Inport</BlockType>
+      <BlockPath>tarmodel/In1</BlockPath>
+      <BlockName>In1</BlockName>
+      <ParameterName>Name</ParameterName>
+      <ParameterValue>In1</ParameterValue>
+      <DataType>double</DataType>
+      <BaseDataType>double</BaseDataType>
+      <SignalName/>
+      <PortNumber>1</PortNumber>
+      <PortWidth>1</PortWidth>
+      <ConnectedBlockPath/>
+      <Dimension>1  1</Dimension>
+      <SignalType>Scalar</SignalType>
+      <SignalHierarchy>
+         <SignalName/>
+         <BusObject/>
+         <Children/>
+      </SignalHierarchy>
+   </BlockItem>
+   <BlockItem>
+      <BlockType>Outport</BlockType>
+      <BlockPath>tarmodel/Out1</BlockPath>
+      <BlockName>Out1</BlockName>
+      <ParameterName>Name</ParameterName>
+      <ParameterValue>Out1</ParameterValue>
+      <DataType>double</DataType>
+      <BaseDataType>double</BaseDataType>
+      <SignalName/>
+      <PortNumber>1</PortNumber>
+      <PortWidth>1</PortWidth>
+      <ConnectedBlockPath>tarmodel/Subsystem</ConnectedBlockPath>
+      <Dimension>1  1</Dimension>
+      <SignalType>Scalar</SignalType>
+      <SignalHierarchy>
+         <SignalName/>
+         <BusObject/>
+         <Children/>
+      </SignalHierarchy>
+   </BlockItem>
+</root>

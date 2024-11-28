@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VarInfList Version="1">
+  <HeadInfo>
+    <TargetFuncName>Subsystem</TargetFuncName>
+  </HeadInfo>
+  <VarInfo>
+    <VarItem CodeEssential="false" Input="false" Output="true" Const="false">
+      <VarName>Out1</VarName>
+      <VarDataType>D8</VarDataType>
+    </VarItem>
+    <VarItem CodeEssential="false" Input="true" Output="false" Const="false">
+      <VarName>In1</VarName>
+      <VarDataType>D8</VarDataType>
+    </VarItem>
+    <VarItem CodeEssential="false" Input="true" Output="false" Const="false">
+      <VarName>Gain</VarName>
+      <VarDataType>D8</VarDataType>
+    </VarItem>
+  </VarInfo>
+  <DefInfo></DefInfo>
+</VarInfList>

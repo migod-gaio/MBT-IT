@@ -1,0 +1,49 @@
+;* This sample is provided by GAIO with NO warranty
+;*     to implement on your target.
+;---------------------------------------+
+;	General linkage sample		|
+;---------------------------------------+
+/bond = 4				; set section boundary 2
+
+; 未定義関数、NULL関数ポインタの制御
+; 下記２行を有効にすると、未定義関数やNULLを指す関数ポインタの呼び出しがあっても、動作するようになります
+;/addr = 0				; undefine function return
+;/sect = C_UNDEFFUNC
+
+;
+/addr = 01000000			; Ram address
+/sect = D0*|comm (data = _DATA0)	; initialized standard section
+					;  (addr:_DATA0_TOP size:_DATA0_SIZE)
+/sect = B0*|comm (bss  = _BSS0)		; uninitialized standard section
+					;  (addr:_BSS0_TOP size:_BSS0_SIZE)
+;
+;/addr = 02000000
+/sect = D1*|comm			; GBR section
+/sect = D2*|comm (data = _DATA2)	; initialized standard section
+					;  (addr:_DATA2_TOP size:_DATA2_SIZE)
+/sect = B2*|comm (bss  = _BSS2)		; uninitialized standard section
+					;  (addr:_BSS2_TOP size:_BSS2_SIZE)
+;
+/addr = 040000000			; Rom address
+/sect = C_startup			; start-up routine
+/sect = C*|code				; other programs
+/sect = I*|code				; constant areas
+/init_section = _INIT_0_DATA(_DATA0)	; initialize data for _DATA0
+/init_section = _INIT_2_DATA(_DATA2)	; initialize data for _DATA2
+
+/addr = 00100000
+/sect = D_STACK
+
+;
+;-------------------------------+
+;	linkage modules		|
+;-------------------------------+
+/ENTRY_NAME=$GENERAL_PATH\startup
+/MODULE=$GENERAL_PATH\startup.xao
+/SYSLIB=$GENERAL_CS_PATH\CSGT0.XLB	 
+/SYSLIB=$GENERAL_L_PATH\MATGT0.XLB 
+/SYSLIB=$GENERAL_L_PATH\STDGT0.XLB 
+/SYSLIB=$GENERAL_PATH\CPPGT0.XLB
+/SYSLIB=$GENERAL_L_PATH\DUMMYGT0.XLB
+/SYSLIB=$GENERAL_L_PATH\gnubuiltingt0.XLB
+;/SYSLIB=$GENERAL_PATH\STABGT0.XLB,STAB

@@ -1,0 +1,18 @@
+[function]
+	"Subsystem"	,4,6,3,2,1,4,8,1,0
+[block]
+	1	4,4,0,0
+	2	5,5,2,0
+	3	6,6,0,0
+[jump]
+	B	1,1,2
+	B	2,2,3
+[expression]
+	E5	1,2,0,0,0,extern,Out1,,,2
+		extern,Gain,,
+		extern,In1,,
+[statement]
+	S2	start,1
+	S3	copy,2,1,"",0,5,1
+	S2	cstat,2
+	S2	end,3

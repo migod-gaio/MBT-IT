@@ -1,0 +1,90 @@
+HEADER{
+	VERSION = 4
+	TOOL_VERSIOIN = 9.1
+	NAME = CP2
+	KIND = 0
+	COPYSRC = 0
+	ASM_TYPE = 0
+	ASM_EXT = .xas
+	REMARK = 
+	OPTPARAM_A = .\CP2.rev
+	OPTPARAM_C = .\CP2.rvc
+	SRCFULL = 0
+	CHART_FLAG = 2
+	CHART_TIME = 2024/11/28 23:58:57
+	SRC_REV = 0
+	AMS_INFO_ONLY_BROWSER = 0
+	NEXT_SRCID = 1
+	MISRA_FLAG = 0
+	MISRA_TIME = 1970/01/01 09:00:00
+	SRC_MISRA = 1
+	NEED_REBUILD_TIME = 2024/11/28 23:58:13
+	HTML = 
+	WORD = 
+	CURWORD = 
+	ENABLE_SUBFOLDER = 0
+	MPU_FIXEDNAME = General
+	COMPILER_FIXEDNAME = GAIO
+	IGNORE_LINE = 0
+	WINAMS_SPMC_C = .\CoverageObj\userDir\winAMS_Spmc_Com.c
+	WINAMS_SPMC_H = .\CoverageObj\userDir\winAMS_Spmc_Com.h
+	WINAMS_SPMCDEFINE_H = .\CoverageObj\userDir\winAMS_SpmcDefine_Com.h
+	C_TYPE = 0
+	C_SRC_EXT = .c.i
+	C_HEAD_EXT = .h
+	CPP_MODE = 0
+	CPP_TYPE = 0
+	CPP_SRC_EXT = .cpp.cxx.cc.c++
+	CPP_HEAD_EXT = .hpp.hxx.hh.h++
+	MCDC_OPTIMIZE = 0
+	CP2InlineKeyword = inline
+	CP2PragmaInlineArg = 0
+	CP2PragmaInlineStartEnd = 0
+	CPP_KIND = 0
+}
+SRCLIST{
+	SRC{
+		ID = 0
+		SRC_KIND = 0
+		FROMEPATH = C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\userDir\src.c
+		RELPATH = ..\..\userDir\src.c
+		CHART_FLAG = 1
+		CHART_TIME = 2024/11/28 23:58:57
+		MISRA_TIME = 
+		CHART_RELDIR = src_c
+		HTML = 
+		WORD = 
+	MISRA_FLAG = 0
+		PREPRO_OUT = 
+		MODULE_STCT = src.vblk
+		MODULE_LIST = src.vmlt
+		SEARCH_DATA = 
+		NEWBROWS = src.vetc
+		NEWBROWS_XCCPPV = 
+		GENERAL = src.xao
+		SPMC_SRC_PATH = .\CoverageObj\userDir\src.c
+		SPMC_GENERAL = src_spmc.xao
+		VAR_LIST = src.vetv
+		TYPE_LIST = src.vett
+		DEFINE_LIST = src.vetdef
+	PREPRO_TIME = 1979/11/30 00:00:00
+	SPMC_DISABLE = 0
+	SPMC_UPDATE = 0
+	USE_PCH = 1
+	}
+}
+CHARTLIST{
+	MODULE_LIST = .\Chart\ChartList\CP2.vmlt
+	STRUCT_LIST = .\Chart\ChartList\CP2.vdlt
+	MODULE_STCT = .\Chart\ChartList\CP2.vblk
+	SEARCH_DATA = 
+	VAR_LIST = .\Chart\ChartList\CP2.vvlt
+	TYPE_LIST = .\Chart\ChartList\CP2.vtlt
+	DEFINE_LIST = .\Chart\ChartList\CP2.vdeflt
+	NEWBROWS = .\CP2.vetm
+	GENERAL = .\CP2.xlo
+	SPMC_GENERAL = .\CP2_SPMC.xlo
+	WINAMS_SPMC_XAO = .\Chart\ChartList\winAMS_Spmc_Com.xao
+}
+MISRA{
+}
