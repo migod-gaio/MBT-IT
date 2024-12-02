@@ -1,8 +1,0 @@
-/disregard = "[Vv][0-9]*[\.Ll][0-9]*"
-/disregard = "\*\*\*\*\*\**"
-/disregard = "\-\-\-\-\-\-*"
-/disregard = "\+\+\+\+\+\+*"
-/disregard = "\/\/\/\/\/\/*"
-/disregard = "======*"
-/keyword=far TYPEATT
-/keyword=near TYPEATT

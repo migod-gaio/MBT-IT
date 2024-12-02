@@ -1,9 +1,0 @@
-
-ターゲットオブジェクトファイルの実行を開始します 
-WinAMS: テストが終了しました。
-ターゲットオブジェクトファイルの実行を終了します 
-
-カバレッジ測定用オブジェクトファイルの実行を開始します 
-WinAMS: テストが終了しました。
-C:\Users\TestEnv\Desktop\migo\R10\IT\MBT-RD11\MBT-IT\Normal\workspaceDir\CMW\CMW_SimResult\MBTinfo.xml を出力しました。
-カバレッジ測定用オブジェクトファイルの実行を終了します 
