@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Prepend MATLAB to PATH on Windows (PowerShell)
         if: runner.os == 'Windows'
-        run: echo "C:\Program Files\MATLAB\R2024b\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append     
+        run: echo "C:\Program Files\MATLAB\R2015aSP1\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append     
       - name: Prepend MATLAB to PATH on Linux
         if: runner.os == 'Linux'
         run: echo "/usr/local/MATLAB/R2020b/bin" >> $GITHUB_PATH
