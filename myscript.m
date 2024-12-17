@@ -1,2 +1,2 @@
-cd("Z:")
+cd Z:
 testCLI(pwd);
